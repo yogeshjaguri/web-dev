@@ -26,11 +26,3 @@ p {
 .h-style {
     color: darkslategrey;
 }
-
-h1 .h-style {
-    font-family: sans-serif;
-}
-
-h4 .h-style {
-    font-family: monospace;
-}
