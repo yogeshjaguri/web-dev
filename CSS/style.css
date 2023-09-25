@@ -46,10 +46,10 @@ img {
 h1 {
     font-size: 3.2rem;
 }
-.sources{
+.sources a{
     text-decoration: none;    
 }
 
-.sources:hover {
+.sources a:hover {
     color: rgb(0,0,0)
 }
