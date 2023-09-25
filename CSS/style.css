@@ -1,28 +1,55 @@
+img {
+    width: 100%;
+}
+
+
 /*-----header-----*/
-#main-header {
-    height: 400px;
+#logo img {
+    width: 210px;
+}
+
+#site-title a {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    line-height: 1.25;
+}
+
+#site-title a:hover {
+    color: #dc6520;
 }
 
 #about-site {
-    color: grey;
+    color: #3c5349;
 }
 
 
 
 /*-----main-----*/
-h1 {
-    font-size: 40px;
-    color: darkslategrey;
-}
-
-p {
-    color: dimgrey;
+#blog-header h1 {
+    color: #13222c;
+    font-family: sans-serif;
 }
 
 #blog-content {
-    width: 1000px;
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    word-spacing: 1px;
 }
 
 .h-style {
-    color: darkslategrey;
+    color: #13222c;
+}
+h1 {
+    font-size: 3.2rem;
+}
+.sources{
+    text-decoration: none;    
+}
+
+.sources:hover {
+    color: rgb(0,0,0)
 }
