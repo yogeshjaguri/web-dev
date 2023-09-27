@@ -31,6 +31,79 @@ body {
   font-size: 0.9rem;
 }
 
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+  color: lightgrey;
+  border-bottom: 1px solid black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+  margin-top: 20vh;
+}
+
+#my-name {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+  /*color: red;*/
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+#about p {
+  color: grey;
+}
+
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+  margin-top: -6rem;
+}
+
+#my-image img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+.text-highlight {
+  color: #2857a4;
+}
 
 .horizontal-list li a {
   color: white;
@@ -64,19 +137,17 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.social-icons li {
+.social-icons li a i {
+  /*color: red;*/
+  padding: 10px;
+  font-size: 1rem;
   border-radius: 50%;
-}
-
-.social-icons li:hover {
-  box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 
 .social-icons li a i:hover {
   box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
 
-.social-icons li a i {
-  width: 1rem;
-  padding: 8px;    
+#about p span {
+  color: #2857a4;
 }
